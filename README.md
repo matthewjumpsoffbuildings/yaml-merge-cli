@@ -2,7 +2,7 @@
 
 ### Fork of [merge-yaml-cli](https://www.npmjs.com/package/merge-yaml-cli)
 
-Forked to update dependencies by [@vuk](https://github.com/vuk/merge-yaml), renamed to `yaml-merge-cli` to deploy to npm
+Forked to update dependencies by [@vuk](https://github.com/vuk/merge-yaml-cli), renamed to `yaml-merge-cli` to deploy to npm
 
 Merges YAML files together using [glob](https://www.npmjs.com/package/glob) patterns to specify input files, with a CLI to
 write out the result as a file.
