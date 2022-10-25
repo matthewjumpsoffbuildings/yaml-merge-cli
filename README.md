@@ -1,18 +1,24 @@
-# merge-yaml-cli
+# yaml-merge-cli
 
-[![Known Vulnerabilities](https://snyk.io/test/github/brainsiq/merge-yaml-cli/ac54a80e5f7f1648aecc380c7aea470f49f1ccef/badge.svg)](https://snyk.io/test/github/brainsiq/merge-yaml-cli/ac54a80e5f7f1648aecc380c7aea470f49f1ccef) [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
- [![CircleCI](https://circleci.com/gh/brainsiq/merge-yaml-cli/tree/master.svg?style=shield&circle-token=077fdc5153f1faebffa5e687a44369759c6a820d)](https://circleci.com/gh/brainsiq/merge-yaml-cli/tree/master)
+### Fork of [merge-yaml-cli](https://www.npmjs.com/package/merge-yaml-cli)
 
-[![NPM](https://nodei.co/npm/merge-yaml-cli.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/merge-yaml-cli/)
+Forked to update dependencies by [@vuk](https://github.com/vuk/merge-yaml), renamed to `yaml-merge-cli` to deploy to npm
 
 Merges YAML files together using [glob](https://www.npmjs.com/package/glob) patterns to specify input files, with a CLI to
 write out the result as a file.
 
-#### Usage
+#### Global Usage
 
 ```shell
-npm i -g merge-yaml-cli
+npm i -g yaml-merge-cli
 merge-yaml -i example.yaml includes/*.yml -o merged.yml
+```
+
+#### Npx Usage
+
+```shell
+npm i -D yaml-merge-cli
+npx merge-yaml -i example.yaml includes/*.yml -o merged.yml
 ```
 
 #### Node.js API
